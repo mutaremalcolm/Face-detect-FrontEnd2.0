@@ -87,7 +87,7 @@ class App extends Component {
     app.models.predict('face-detection', this.state.input)
     .then(response => {
       if (response) {
-        fetch('https://cors-anywhere.facedetectappbe.onrender.com/image', {
+        fetch('https://facedetectappbe.onrender.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
