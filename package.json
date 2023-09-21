@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "serve-s build",
+    "start": "serve",
     "build": "react-scripts build",
     "main": "public/index.html",
     "test": "react-scripts test",
